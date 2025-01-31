@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/_reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">   
+    <title>Conversor de temperatura</title>
+    <link rel="shortcut icon" href="./img/Icon.svg" type="image/x-icon">
+</head>
+<script src="./js/app.js"></script>
+<body>
+    <header class="container__header">
+        <nav class="container__header__menu">
+            <a href="https://vercel.com/hwtavin"  class="link" target="_blank">Meu Perfil do Vercel</a>
+            <a href="https://www.linkedin.com/in/gustavo-nascimento-285204212/" class="link" target="_blank">Meu Perfil do LinkedIn </a>
+        </nav>
+    </header>
+        <main class="container__principal">
+            <div class="caontainer__titulo">
+                <h1 class="container__titulo__titulo">Conversor de temperatura</h1>    
+            </div>    
+            <div class="container__formulario">
+                <form class="formulario">
+                    <label class="campo-grupo">
+                        <input type="number" class="container__temperatura" placeholder="00" id="temperatura">
+                            <p class="container__texto">De</p>
+                        <select class="unidade__origem" id="origem">
+                            <option value="Celsius">Celsius</option>
+                            <option value="Kelvin">Kelvin</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                        </select>
+                            <p class="container__texto">Para</p>
+                        <select class="unidade__destino" id="destino">
+                            <option value="Celsius">Celsius</option>
+                            <option value="Kelvin">Kelvin</option>
+                            <option value="Fahrenheit">Fahrenheit</option>
+                        </select>
+                    </label>
+                </form>
+            </div>
+            <div class="container__converter">
+                <button onclick="converter()" class="container__botao">Converter</button>            
+                <p class="container__resultado">Resultado: <span id="resultado"></span> </p>
+            </div>
+        </main>
+</body>
+</html>

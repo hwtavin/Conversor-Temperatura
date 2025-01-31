@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 265.5 265.5" style="enable-background:new 0 0 265.5 265.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:37.0425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:12.3476;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="8.7828" y1="132.766" x2="256.7491" y2="132.766" gradientTransform="matrix(-0.2479 0.9688 -0.9688 -0.2479 294.3034 37.062)">
+	<stop  offset="0" style="stop-color:#383849"/>
+	<stop  offset="1" style="stop-color:#0C0C15"/>
+</linearGradient>
+<circle class="st0" cx="132.8" cy="132.8" r="124"/>
+<g>
+	<path class="st1" d="M183.8,183c-27.9,27.9-73.8,27.9-102,0s-27.9-73.8,0-102s73.8-27.9,102,0"/>
+	<circle class="st2" cx="132.8" cy="132.8" r="20.4"/>
+</g>
+</svg>

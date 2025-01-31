@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+:root{
+    --cor-fundo: #0b0a15 linear-gradient(45deg, #0b0a15, #1f1f24);
+    --cor-fundo-option: #22222d;
+    --cor-fundo-placeholder: #39394351;
+    --cor-fundo-link-ativo: #393751;
+    --cor-texto-placeholder: #11b6e42e;
+
+    --cor-texto-secundario: #11B5E4;
+    --cor-texto: #ededff;
+
+    --cor-hover: #11B5E4;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-fundo);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container__header{
+    margin: 2%;
+}
+.container__header__menu{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+.link:active {
+    background-color: var(--cor-fundo-link-ativo);
+}
+.link:hover{
+    box-shadow: .5rem .4rem 10px  var(--cor-hover);
+    color: var(--cor-hover);
+    transform: scale(1.04);
+}
+
+.container__titulo__titulo{
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5rem;
+    color: var(--cor-texto);
+    cursor: default;
+}
+
+.container__formulario{
+    margin-top: 4rem;
+    text-align: center;
+}
+.container__temperatura{
+    width: 5rem;
+    background: var(--cor-fundo-placeholder);
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--cor-texto-secundario);
+}
+.container__temperatura::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.container__temperatura::placeholder{
+    color: var(--cor-texto-placeholder);
+}
+
+.container__texto{
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--cor-texto);
+    margin: 2rem 0 .6rem 0;
+}
+.unidade__origem, .unidade__destino{ 
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-align: center;
+    background: var(--cor-fundo-placeholder);
+    outline: none;
+    border-radius: .3rem;
+    border: none;
+    color: var(--cor-texto-secundario);
+    padding: .4rem .6rem .4rem .6rem;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+  }
+  option {
+    background-color: var(--cor-fundo-option);
+  }
+
+  .container__converter{
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .container__botao{
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--cor-texto);
+    cursor: pointer;
+    border: solid .1rem var(--cor-texto);
+    background-color: var(--cor-fundo);
+    border-radius: 1rem;
+    padding: .5rem;
+    transition-duration: .2s;
+  }
+  .container__botao:hover{
+    border-color: var(--cor-hover);
+    color: var(--cor-hover);
+    transform: scale(1.02);
+  }
+  .container__botao:active{
+    background-color: var(--cor-fundo-link-ativo);
+  }
+
+  .container__resultado{
+    margin-top: 1rem;
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--cor-texto);
+  }
+
+  span{
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--cor-texto-secundario);
+  }
