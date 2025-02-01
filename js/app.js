@@ -49,5 +49,5 @@ function converter() {
     }
 
     let resultado = document.getElementById('resultado')
-    resultado.innerHTML = `<span>${temperaturaConvertida.toFixed(2)} ${unidadeConvertida}</span>`;
+    resultado.innerHTML = `<span>${temperaturaConvertida.toFixed(1)} ${unidadeConvertida}</span>`;
   }
