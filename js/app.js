@@ -3,9 +3,13 @@ function converter() {
     let temperatura = parseFloat(document.getElementById("temperatura").value);
     let origem = document.getElementById("origem").value;
     let destino = document.getElementById("destino").value;
-    let unidadeConvertida
-    let temperaturaConvertida
+    let unidadeConvertida;
+    let temperaturaConvertida;
 
+    if (isNaN(temperatura)){
+      alert("Digite uma temperatura");
+      return;
+    }
     if(origem === "Celsius"){
       if(destino === "Fahrenheit") { 
         temperaturaConvertida = (temperatura * 9/5) + 32;
@@ -45,5 +49,5 @@ function converter() {
     }
 
     let resultado = document.getElementById('resultado')
-    resultado.innerHTML = `<span>${temperaturaConvertida} ${unidadeConvertida}</span>`;
+    resultado.innerHTML = `<span>${temperaturaConvertida.toFixed(2)} ${unidadeConvertida}</span>`;
   }

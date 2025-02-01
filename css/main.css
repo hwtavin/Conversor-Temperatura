@@ -69,14 +69,14 @@ body{
     text-align: center;
 }
 .container__temperatura{
-    width: 5rem;
+    width: 6rem;
     background: var(--cor-fundo-placeholder);
     margin-bottom: 1rem;
     outline: none;
     border-radius: 1rem;
     border: none;
     text-align: center;
-    cursor: pointer;
+    cursor: text;
     font-family: "Lexend Giga", serif;
     font-optical-sizing: auto;
     font-style: italic;
@@ -89,6 +89,7 @@ body{
     margin: 0;
 }
 .container__temperatura::placeholder{
+    font-style: italic;
     color: var(--cor-texto-placeholder);
 }
 
